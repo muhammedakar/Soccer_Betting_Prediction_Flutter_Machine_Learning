@@ -1,6 +1,6 @@
 # Super Leauge Total Goal Predict
 
-I've built a machine learning model using the CatBoost algorithm and deployed it on both Streamlit and Flutter platforms. However, due to insufficient data on matches played in the Super League, the performance of the model is not very effective. This model is capable of predicting match outcomes and total goals, but obtaining more data could lead to more accurate results. You can watch the videos below.
+I've built a machine learning model using the CatBoost algorithm and deployed it on both Streamlit and Flutter using Flask. However, the performance of the model isn't very effective due to insufficient data on predicting the winners of matches and the total number of goals played in the Turkish Süper Lig. You can check out the following videos for more information
 
 
 <br></br>
