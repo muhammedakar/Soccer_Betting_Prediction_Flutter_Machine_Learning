@@ -34,17 +34,10 @@ cat_cols, num_cols = result[0], result[1]
 
 df_final = en.one_hot_encoder(df_final, ['Home', 'Away', 'Referee'], drop_first=True)
 
-# rs = StandardScaler()
-# l = [col for col in df_final.columns if col not in ['Total_Goal']]
-# df_final[l] = rs.fit_transform(df_final[l])
-
 df_final['Total_Goal'].std()
 
 X = df_final.drop(['Total_Goal'], axis=1)
 y = df_final['Total_Goal']
-
-X.columns
-
 
 def base_models(X, y):
     print("Base Models....")
